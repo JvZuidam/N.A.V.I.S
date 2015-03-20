@@ -1,0 +1,11 @@
+{"say hello":"Shows message box with hello (name)",
+"what time is it":"Shows the time and date",
+"clock":" opens a clock form",
+"print my name":"prints name in richtextbox1",
+"open explorer":"Open windows explorer",
+"open chrome":"Opens google chrome",
+"open minecraft":"Opens minecraft",
+"open games":"Opens games folder",
+"commands":"Shows all voice commands",
+"edit commands": "opens dictionary.json",
+"help":"explains what this program is",}
