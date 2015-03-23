@@ -5,7 +5,8 @@
 "open explorer":"Open windows explorer",
 "open chrome":"Opens google chrome",
 "open minecraft":"Opens minecraft",
-"open games":"Opens games folder",
+"open games ":"opens the games folder",
 "commands":"Shows all voice commands",
 "edit commands": "opens dictionary.json",
+"test": "command for testing the default case in the switch",
 "help":"explains what this program is",}

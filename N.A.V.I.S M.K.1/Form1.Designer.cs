@@ -28,12 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.BtnEnable = new System.Windows.Forms.Button();
             this.BtnDisable = new System.Windows.Forms.Button();
             this.SpkBtn = new System.Windows.Forms.Button();
             this.ExBtn = new System.Windows.Forms.Button();
             this.TexBtn = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // richTextBox1
@@ -92,12 +95,23 @@
             this.TexBtn.TabIndex = 5;
             this.TexBtn.Text = "Text / Speech";
             this.TexBtn.UseVisualStyleBackColor = true;
+            this.TexBtn.Click += new System.EventHandler(this.TexBtn_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(308, 15);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(162, 267);
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 326);
+            this.ClientSize = new System.Drawing.Size(499, 326);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.TexBtn);
             this.Controls.Add(this.ExBtn);
             this.Controls.Add(this.SpkBtn);
@@ -109,6 +123,7 @@
             this.Name = "Form1";
             this.Text = "N.A.V.I.S M.K.1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -121,6 +136,7 @@
         private System.Windows.Forms.Button SpkBtn;
         private System.Windows.Forms.Button ExBtn;
         private System.Windows.Forms.Button TexBtn;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

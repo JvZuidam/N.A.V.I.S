@@ -59,15 +59,5 @@ namespace N.A.V.I.S_M.K._1.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] dictionary {
-            get {
-                object obj = ResourceManager.GetObject("dictionary", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
     }
 }
